@@ -1,62 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://www.alfie-elliott.com/</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.alfie-elliott.com/contact</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.alfie-elliott.com/projects</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.alfie-elliott.com/cv</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.alfie-elliott.com/projects/occult-obliteration</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.alfie-elliott.com/projects/jungle-adventure</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.alfie-elliott.com/projects/inventory-experiment</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.alfie-elliott.com/projects/chess-challenge</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.alfie-elliott.com/projects/speedrun-tool</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.alfie-elliott.com/downloads/Alfie_Elliott-Current-CV.pdf</loc>
-  <lastmod>2024-01-14T11:18:41+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://alfie-elliott.com/projects/chess-challenge.html</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/projects/inventory-experiment.html</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/projects/jungle-adventure.html</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/projects/multiplayer-level-design.html</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/projects/occult-obliteration.html</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/projects/speedrun-tool.html</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/contact.html</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/cv.html</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/deadend.html</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/</loc>
+    </url>
+    <url>
+        <loc>https://alfie-elliott.com/projects.html</loc>
+    </url>
 </urlset>
