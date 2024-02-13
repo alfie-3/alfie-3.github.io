@@ -65,7 +65,7 @@
     <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center" style="margin-bottom: 12px;">
         <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center" style="border-radius: 14px;margin-right: 16px;margin-left: 16px;background: var(--bs-primary);box-shadow: 0px 0px 7px rgba(33,37,41,0.6);max-width: 1360px;width: 90%;">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="width: 100%;margin: 12px;margin-top: 12px;">
-                <div class="col d-xxl-flex justify-content-xxl-start">
+                <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start"><strong>Chess Bot Challenge</strong></h1>
                         <p class="text-start" style="font-size: 21px;">This project was developed over the course of a few weeks and is a submission to the "Tiny Chess Bots" challenge issued by programming Youtuber "Sebastian Lague". Where you must create a chess bot within a given C# API and "Bot Brain Capacity" which limits how many evaluations and variables can be used.</p>
@@ -83,7 +83,7 @@
                 <div class="col d-flex d-xl-flex justify-content-center align-items-center mx-auto" style="position: relative;">
                     <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="A code excerpt from the chess bot." src="../assets/img/Chessbot/Screenshot%202023-11-12%20150602.png" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;"></div>
                 </div>
-                <div class="col d-xxl-flex justify-content-xxl-start">
+                <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start">The bot</h1>
                         <p class="text-start" style="font-size: 21px;">The bot uses a min-max search to locate the best move, using recursion to evaluate moves up to 6 levels deep to find the optimal strategy. Evaluating things such as the pieces taken by the move, the value of the piece being moved, and if the move puts the opposition in check or checkmate.<br><br>Effort has also been put into optimisation to make sure that the bot operates quickly and does not run out of time on the clock, as well as enabling the recursion to run even deeper.</p>
@@ -95,7 +95,7 @@
     <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center" style="margin-bottom: 12px;">
         <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center" style="border-radius: 14px;margin-right: 16px;margin-left: 16px;background: var(--bs-primary);box-shadow: 0px 0px 7px rgba(33,37,41,0.6);max-width: 1360px;width: 90%;">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="width: 100%;margin: 12px;margin-top: 12px;">
-                <div class="col d-xxl-flex justify-content-xxl-start">
+                <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start">Recursive checking</h1>
                         <p class="text-start" style="font-size: 21px;">The bot employs recursive checking to evaluate moves deeper than one level, to make sure that it would definitely benefit it. Achieving certain parameters such as putting the opposition in check or taking a queen will raise the "Interest" level of the move, making it check even deeper. This is the most important part of the bot which elevated it to a more advanced way of playing.</p>
@@ -113,7 +113,7 @@
                 <div class="col d-flex d-xl-flex justify-content-center align-items-center mx-auto" style="position: relative;">
                     <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="The scores from the chess bot." src="../assets/img/Chessbot/Screenshot%202023-11-12%20152251.png" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;max-width: 230px;"></div>
                 </div>
-                <div class="col d-xxl-flex justify-content-xxl-start">
+                <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start">Conclussion</h1>
                         <p class="text-start" style="font-size: 21px;">The final bot developed was able to defeat me in nearly every match. As someone who is not experienced in chess it was entertaining to create something significantly better than me. The bot I developed was highly competitive with those made by my peers, and although the results of the challenge are not yet released, it was entertaining and enlightening to develop something like this. <br><br>I felt it had challenged me in ways that games programming had not. I found that tweaking small numbers could make all the difference and gave me a new perspective in developing artificial intelligences and balancing systems for games.</p>
