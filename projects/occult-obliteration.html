@@ -68,7 +68,7 @@
                 <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start"><strong>Occult Obliteration</strong></h1>
-                        <p class="text-start" style="font-size: 21px;">Occult Obliteration is a 4 player co-op wave survival shoot-em'-up with upgradable weaponry, 4 unique characters with their own abilities, a range of weapons with various stats, and a legion of undead known as "The Possessed" who hunt down the players.<br><br>Developed by a team of 5 people in the Unity engine in my first year at UOG, this game implements 3D assets with rigged humanoid characters, particle systems as well as an inventory system, modular weapon and ability frameworks and enemy AI.<br><br><em>Video represents the assignment submission build of the game not the version shown at the COMX event.</em></p>
+                        <p class="text-start" style="font-size: 21px;">Occult Obliteration is a 4 player co-op wave survival shoot-em'-up with upgradable weaponry, 4 unique characters with their own abilities, a range of weapons with various stats, and a legion of undead known as "The Possessed" who hunt down the players.<br><br>Developed by a team of 5 people in the Unity engine in my first year at the University of Gloucestershire, this game implements 3D assets with rigged humanoid characters, particle systems as well as an inventory system, modular weapon and ability frameworks and enemy AI.<br><br><em>Video represents the assignment submission build of the game not the version shown at the COMX event.</em></p>
                     </div>
                 </div>
                 <div class="col d-xl-flex mx-auto" style="position: relative;">
@@ -83,10 +83,16 @@
                 <div class="col d-flex d-xl-flex justify-content-center align-items-center mx-auto" style="position: relative;">
                     <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="Thumbnail for occult obliteration." src="../assets/img/Occult/PosterThumbnail.png" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;"></div>
                 </div>
-                <div class="col d-xxl-flex justify-content-xxl-start">
+                <div class="col d-xxl-flex justify-content-xxl-start align-items-xxl-center">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start">My Contributions</h1>
-                        <p class="text-start d-lg-flex align-items-lg-center" style="font-size: 21px;">My contributions to this project included the overall design of the games mechanics, features and balance; local multiplayer controller support; weapons framework and player inventories, as well as purchasing and swapping weapons; visual effects and lighting, character animation and IK rigging, ability framework for customisable abilities; level management and scene transitions, sound implementation, file structuring and general Unity and C# consultant.</p>
+                        <ul style="font-size: 27px;">
+                            <li style="text-align: left;">Local Multiplayer &amp; controller Support</li>
+                            <li style="text-align: left;">Weapons &amp; Abilities framework</li>
+                            <li style="text-align: left;">Inventories and item pools</li>
+                            <li style="text-align: left;">VFX and Lighting</li>
+                            <li style="text-align: left;">Character animation &amp; IK rigging in Unity</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -116,7 +122,16 @@
                 <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start">Weapon framework</h1>
-                        <p class="text-start" style="font-size: 21px;">The weapon framework uses weapon data assets which can be customised and given to a player, by default a player can hold 2 weapons and switch between them, but this could be any amount. Each weapon contains parameters such as its magazine and reserve max sizes, firing type, damage, spread, reload speed, pierce amount and more to be able to create many unique weapons. Aside from the standard weapons, there are also shotguns being the only alternative weapons, which are all based on the "Gun Generic" base class, and all slot onto the controller the same.&nbsp;</p>
+                        <p class="text-start" style="font-size: 21px;">The weapon framework uses weapon data assets which can be efficiently created and customized to change weapon properties such as:</p>
+                        <ul style="font-size: 23px;text-align: left;">
+                            <li>Magazine &amp; reserve ammo</li>
+                            <li>Firing type (Select fire, Burst, Full Auto)</li>
+                            <li>Damage</li>
+                            <li>Firing rate &amp; reload speed</li>
+                            <li>Spread</li>
+                            <li>Weapon type (Shotgun, etc.)</li>
+                        </ul>
+                        <p class="text-start" style="font-size: 21px;">The implementation of the weapon system would also make it easy to add any kind of custom weaponry in the future.</p>
                     </div>
                 </div>
             </div>
@@ -128,7 +143,7 @@
                 <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start">Character Rig</h1>
-                        <p class="text-start" style="font-size: 21px;">To avoid creating unique animations for all the different weapons which would have taken a considerable amount of time I decided to employ a solution that uses Unity's IK rigs to solve the hands of the character onto points on the weapon. That way I can apply forces on the weapon such as recoil and it will be reflected onto the player character who will move with it. This way I could add more weapon models without worrying about new animations, and since the game had a consistent top down view, it didn't have to look perfect. These IK animations are blended on top of the players other animations.</p>
+                        <p class="text-start" style="font-size: 21px;">The characters implement an IK system to reduce the amount of unique animations that had to be made; the quality of the animations is not as noticeable due to the top-down perspective.<br><br>Recoil and different grip stances can be easily created by position the weapon and grip points.</p>
                     </div>
                 </div>
                 <div class="col d-flex d-xl-flex justify-content-center align-items-center mx-auto" style="position: relative;">
@@ -158,7 +173,7 @@
                 <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start">Abilities</h1>
-                        <p class="text-start" style="font-size: 21px;">Abilities work similarly to weapons, they can be slotted onto characters and consist of Primary, Secondary and Dash; which effect how a player behaves when performing these actions. Doing it this way meant that all the players used the same scripts, which helped things perform similarly and consistently, and made it much easier to swap out and tweak things as we saw fit. The abilities themselves could be scripted to do anything we wanted but always came from one place.</p>
+                        <p class="text-start" style="font-size: 21px;">Abilities work similarly to weapons, they can be slotted onto characters and consist of Primary, Secondary and Dash; which effect how a player behaves when performing these actions.<br><br>Doing it this way helped us easily experiment with different ability combinations, and manage script files more effectively, as well as making sure that characters performed more consistently.</p>
                     </div>
                 </div>
                 <div class="col d-flex d-xl-flex justify-content-center align-items-center mx-auto" style="position: relative;">
@@ -176,7 +191,7 @@
                 <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
                         <h1 class="text-start">Player Management</h1>
-                        <p class="text-start" style="font-size: 21px;">A particularly hard part of part of this game was managing the players between scenes, all 4 players can select their characters in their lobby and they're carried through and paired to the correct devices in the gameplay scene and their items are carried into the next level. This was done through a persistent script that holds references to a players selected character class and gameobject, as well as what device they used to select their character so they are always paired successfully on a scene change.</p>
+                        <p class="text-start" style="font-size: 21px;">One of the greatest challenges of the project was the local multiplayer support. 4 players can join a lobby using either Keyboard and Mouse or Controller inputs. The player's characters and inventories are persistent throughout 3 levels of the game, and making sure that players stayed in control of the correct characters was an unexpected challenge.</p>
                     </div>
                 </div>
             </div>
