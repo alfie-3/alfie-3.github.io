@@ -5,8 +5,6 @@ description: "Portfolio - Alfie Elliott - Blog"
 email: "contact@alfie-elliott.com"
 github_username: "alfie-3"
 
-rss: rss
-
 kramdown:
   syntax_highlighter_opts:
     disable: true
