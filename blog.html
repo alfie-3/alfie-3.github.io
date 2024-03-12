@@ -5,14 +5,12 @@ title: Blog
 
 <ul>
   {% for post in site.posts %}
-    <li>
       <div style="background: var(--bs-secondary);border-radius: 19px;box-shadow: 0px 0px 8px rgba(33,37,41,0.6);">
-      <div><a class="text-decoration-none" href="{{ post.url }}" style="margin: 1px;">
+      <div><a class="text-decoration-none" href="{{ post.url }}">
       <h2 style="color: rgb(33,37,41);">{{ post.title }}</h2>
       <p style="color: rgb(33,37,41);"> {{ post.excerpt }} </p>
       </a>
       </div>
       </div>
-    </li>
   {% endfor %}
 </ul>
