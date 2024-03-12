@@ -40,16 +40,18 @@
             <div class="col text-center" style="margin-bottom: 42px;margin-top: 7px;padding-top: 8px;">
                 <h1 style="margin-top: 0px;margin-bottom: -32px;"><strong>Latest Posts</strong></h1>
             </div>
-            <div class="col"><ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-      - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    </li>
-  {% endfor %}
-</ul></div>
+            <div class="col"><script>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+          - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+        </li>
+      {% endfor %}
+    </ul>
+</script></div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
