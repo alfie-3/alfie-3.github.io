@@ -40,12 +40,17 @@
             <div class="col text-center" style="margin-bottom: 42px;margin-top: 7px;padding-top: 8px;">
                 <h1 style="margin-top: 0px;margin-bottom: -32px;"><strong>Latest Posts</strong></h1>
             </div>
-            <div class="col">
-                <div><a class="text-decoration-none, post-link" href="/2024/03/12/CoolBlog">
-                        <h1 class="2024-03-12-CoolBlog.md" style="color: rgb(33,37,41);">Title</h1>
-                        <h1 style="font-size: 17px;color: var(--bs-primary-text-emphasis);">Date</h1>
-                    </a></div>
-            </div>
+            <div class="col">  {% for post in site.posts %}
+  <article>
+    <h2>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    {{ post.content }}
+  </article>
+{% endfor %}</div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
