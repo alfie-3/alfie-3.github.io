@@ -40,7 +40,7 @@
             <div class="col text-center" style="margin-bottom: 42px;margin-top: 7px;padding-top: 8px;">
                 <h1 style="margin-top: 0px;margin-bottom: -32px;"><strong>Latest Posts</strong></h1>
             </div>
-            <div class="col"><script>
+            <div class="col"><md-block>
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
@@ -49,7 +49,7 @@
     {% endfor %}
   </ul>
 {% endfor %}
-</script></div>
+</md-block></div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
