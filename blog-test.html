@@ -40,7 +40,8 @@
             <div class="col text-center" style="margin-bottom: 42px;margin-top: 7px;padding-top: 8px;">
                 <h1 style="margin-top: 0px;margin-bottom: -32px;"><strong>Latest Posts</strong></h1>
             </div>
-            <div class="col"><ul>
+            <div class="col">
+                <div><ul>
   {% for post in site.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -48,6 +49,7 @@
     </li>
   {% endfor %}
 </ul></div>
+            </div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
