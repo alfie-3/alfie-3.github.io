@@ -1,8 +1,3 @@
 @echo off
-
-for %%i in ("%folder_path%\*.html") do (
-   (echo --- & echo --- & type "%%i") > "temp_file.html"
-   move /Y "temp_file.html" "%%i"
-)
-
-echo Frontmatter appended to all HTML files.
+cd G:\Projects\Pages\alfie-3.github.io\
+set arg1=%1 cd %arg1% ren *.html *.php
