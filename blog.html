@@ -56,7 +56,10 @@
             <div>
                 <h1 style="margin-bottom: 0px;font-weight: bold;">Blog</h1>
                 <p>Newest to oldest</p>
-            </div><div markdown="1">
+            </div>---
+layout: default
+---
+<div>
     {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
