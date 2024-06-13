@@ -1,3 +1,7 @@
+.curved-border {
+  border-radius: 6px;
+}
+
 .filtr-item {
   padding: 4px;
 }

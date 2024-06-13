@@ -1,3 +1,10 @@
-div {
+.default-box {
+  border-radius: 6px;
+  margin-right: 16px;
+  margin-left: 16px;
+  background: var(--bs-primary);
+  box-shadow: 0px 0px 7px rgba(33,37,41,0.6);
+  max-width: 1360px;
+  width: 90%;
 }
 
