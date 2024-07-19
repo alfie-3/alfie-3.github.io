@@ -58,3 +58,15 @@
 .item.itemc.curved-boarder.curved-border {
 }
 
+.carousel-indicators li {
+  background-color: var(--bs-secondary);
+}
+
+.carousel-indicators .active {
+  background-color: #d2f5b7;
+}
+
+.carousel .carousel-control-next-icon, .carousel-control-prev-icon {
+  background-image: none;
+}
+
