@@ -1,0 +1,21 @@
+.nav {
+  padding-top: 0px;
+  position: relative;
+  overflow: visible;
+  padding-bottom: 0px;
+  height: 110px;
+  border-style: none;
+  margin-bottom: 12px;
+}
+
+.navbar-brand {
+  color: var(--bs-navbar-brand-color);
+  font-size: 25.77px;
+  border-color: var(--bs-primary);
+}
+
+.navbar-link {
+  color: rgb(33,37,41);
+  font-size: 22px;
+}
+

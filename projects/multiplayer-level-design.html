@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="../assets/css/bs-theme-overrides.css">
     <link rel="stylesheet" href="../assets/css/-Filterable-Gallery-with-Lightbox-BS4--Filterable-Gallery.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GXB3E5E8G"></script>
@@ -38,28 +39,29 @@
 </script>
 </head>
 
-<body style="background: url(../assets/img/Site/BG-Grid.png), var(--bs-primary);">
-    <div class="d-flex d-md-flex justify-content-center justify-content-sm-center align-items-sm-center justify-content-md-center" style="padding-top: 0px;position: relative;overflow: visible;padding-bottom: 0px;height: 110px;border-style: none;">
+<body class="background">
+    <div class="d-flex d-md-flex justify-content-center justify-content-sm-center align-items-sm-center justify-content-md-center nav">
         <nav class="navbar navbar-expand-md sticky-top text-secondary bg-secondary text-center border rounded shadow d-flex justify-content-center align-items-center align-items-md-center align-items-lg-start" data-bs-spy="scroll" data-bs-target="#navcol-1" data-bs-smooth-scroll="true" style="margin: 0px;margin-top: 10px;margin-left: 0;margin-right: 0;margin-bottom: 0px;position: fixed;overflow: visible;width: 98%;max-width: 100%;background: linear-gradient(88deg, #b1c99d 42%, #c1d0b5), var(--bs-secondary);border-radius: 0px;border: 0px none var(--bs-secondary);font-size: 16px;">
             <div class="container-fluid"><a class="navbar-brand d-flex d-md-flex flex-column align-items-start justify-content-md-start align-items-md-start" href="/" target="_top" style="margin-left: 14px;">
-                    <h1 style="color: var(--bs-navbar-brand-color);font-size: 25.77px;border-color: var(--bs-primary);"><strong>Alfie Elliott</strong></h1>
+                    <h1 class="navbar-brand"><strong>Alfie Elliott</strong></h1>
                     <h1 style="color: #394332;font-size: 17.77px;margin-bottom: 0px;">Technical Games Design</h1>
                 </a>
                 <div class="text-start"></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse text-start" id="navcol-1" data-bs-spy="scroll">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link active" href="/contact" style="color: rgb(33,37,41);font-size: 22px;">Contact</a></li>
-                        <li class="nav-item" style="font-weight: bold;"><a class="nav-link" href="/projects" style="color: rgb(33,37,41);font-size: 22px;"><span style="font-weight: normal !important;">Projects</span></a></li>
-                        <li class="nav-item" style="font-weight: bold;"><a class="nav-link" href="/posts" style="color: rgb(33,37,41);font-size: 22px;"><span style="font-weight: normal !important;">Posts</span></a></li>
-                        <li class="nav-item" style="font-weight: bold;"><a class="nav-link" href="/cv" style="color: rgb(33,37,41);font-weight: bold;font-size: 22px;"><span style="font-weight: normal !important;">CV</span></a></li>
-                        <li class="nav-item d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-start align-items-center align-items-sm-center align-items-md-center align-items-lg-center justify-content-xl-start align-items-xl-end" style="margin-top: 7px;min-width: 0px;min-height: 0;"><a class="nav-link" href="https://github.com/alfie-3" style="padding-top: 0;padding-right: 0;" rel="noopener" target="_blank"><i class="fab fa-github fs-2 d-flex justify-content-xl-center align-items-xl-center" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" style="padding-left: 0;color: rgb(33,37,41);font-size: 64px;" title="Github"></i></a><a class="nav-link d-flex justify-content-xl-center align-items-xl-center" href="https://sketchfab.com/alfie-e" style="padding-top: 0;padding-right: 0;" target="_blank">&nbsp;&nbsp;<i class="icon ion-cube fs-2 d-flex justify-content-xl-center align-items-xl-center" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" title="Sketchfab" style="color: rgb(33,37,41);font-size: 64px;"></i></a></li>
+                        <li class="nav-item"><a class="nav-link active navbar-link" href="/contact">Contact</a></li>
+                        <li class="nav-item" style="font-weight: bold;"><a class="nav-link navbar-link" href="/projects"><span style="font-weight: normal !important;">Projects</span></a></li>
+                        <li class="nav-item" style="font-weight: bold;"><a class="nav-link navbar-link" href="/posts"><span style="font-weight: normal !important;">Posts</span></a></li>
+                        <li class="nav-item" style="font-weight: bold;"><a class="nav-link navbar-link" href="/cv"><span style="font-weight: normal !important;">CV</span></a></li>
+                        <li class="nav-item d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-start align-items-center align-items-sm-center align-items-md-center align-items-lg-center justify-content-xl-start align-items-xl-end" style="margin-top: 7px;min-width: 0px;min-height: 0;"><a class="nav-link" href="https://github.com/alfie-3" style="padding-top: 0;padding-right: 0;" rel="noopener" target="_blank"><i class="fab fa-github fs-2 d-flex justify-content-xl-center align-items-xl-center" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" title="Github" style="padding-left: 0;color: rgb(33,37,41);font-size: 64px;"></i></a><a class="nav-link d-flex justify-content-xl-center align-items-xl-center" href="https://sketchfab.com/alfie-e" style="padding-top: 0;padding-right: 0;" target="_blank">&nbsp;&nbsp;<i class="icon ion-cube fs-2 d-flex justify-content-xl-center align-items-xl-center" data-bs-toggle="tooltip" data-bss-tooltip="" data-bs-placement="bottom" title="Sketchfab" style="color: rgb(33,37,41);font-size: 64px;"></i></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center" style="margin-bottom: 12px;">
-        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center" style="border-radius: 6px;margin-right: 16px;margin-left: 16px;background: var(--bs-primary);box-shadow: 0px 0px 7px rgba(33,37,41,0.6);max-width: 1360px;width: 90%;">
+    <div class="text-buffer"></div>
+    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center">
+        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center default-box">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="width: 100%;margin: 12px;margin-top: 12px;">
                 <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
@@ -73,8 +75,8 @@
             </div>
         </div>
     </div>
-    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center" style="padding-top: 12px;">
-        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center" style="border-radius: 6px;margin-right: 16px;margin-left: 16px;background: var(--bs-primary);box-shadow: 0px 0px 7px rgba(33,37,41,0.6);max-width: 1360px;width: 90%;margin-bottom: 16px;">
+    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center">
+        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center default-box">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="width: 100%;margin: 12px;margin-top: 12px;">
                 <div class="col d-flex d-xl-flex justify-content-center align-items-center mx-auto" style="position: relative;">
                     <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="Top down map of the level." src="../assets/img/Multiplayer%20Level/Map.png" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;"></div>
@@ -88,8 +90,8 @@
             </div>
         </div>
     </div>
-    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center" style="padding-top: 12px;">
-        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center" style="border-radius: 6px;margin-right: 16px;margin-left: 16px;background: var(--bs-primary);box-shadow: 0px 0px 7px rgba(33,37,41,0.6);max-width: 1360px;width: 90%;margin-bottom: 16px;">
+    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center">
+        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center default-box">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="width: 100%;margin: 12px;margin-top: 12px;">
                 <div class="col d-lg-flex d-xl-flex d-xxl-flex align-items-lg-center align-items-xl-center justify-content-xxl-start align-items-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
@@ -101,9 +103,9 @@
                     <div class="d-flex d-md-flex d-lg-flex flex-column justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;">
                         <div class="carousel slide" data-bs-ride="false" id="carousel-1">
                             <div class="carousel-inner">
-                                <div class="carousel-item active border rounded"><img class="w-100 d-block border rounded" alt="Slide Image" src="../assets/img/Multiplayer%20Level/HighresScreenshot00000.png"></div>
-                                <div class="carousel-item"><img class="w-100 d-block" alt="Slide Image" src="../assets/img/Multiplayer%20Level/HighresScreenshot00004.png"></div>
-                                <div class="carousel-item"><img class="w-100 d-block" alt="Slide Image" src="../assets/img/Multiplayer%20Level/HighresScreenshot00033.png"></div>
+                                <div class="carousel-item active border rounded"><img class="w-100 d-block border rounded" alt="Slide Image" src="../assets/img/Multiplayer%20Level/HighresScreenshot00000.webp"></div>
+                                <div class="carousel-item"><img class="w-100 d-block" alt="Slide Image" src="../assets/img/Multiplayer%20Level/HighresScreenshot00004.webp"></div>
+                                <div class="carousel-item"><img class="w-100 d-block" alt="Slide Image" src="../assets/img/Multiplayer%20Level/HighresScreenshot00033.webp"></div>
                             </div>
                             <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
                             <div class="carousel-indicators"><button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2"></button></div>
@@ -113,11 +115,11 @@
             </div>
         </div>
     </div>
-    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center" style="padding-top: 12px;">
-        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center" style="border-radius: 6px;margin-right: 16px;margin-left: 16px;background: var(--bs-primary);box-shadow: 0px 0px 7px rgba(33,37,41,0.6);max-width: 1360px;width: 90%;margin-bottom: 16px;">
+    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center">
+        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center default-box">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="width: 100%;margin: 12px;margin-top: 12px;">
                 <div class="col d-flex d-xl-flex justify-content-center align-items-center mx-auto" style="position: relative;">
-                    <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="Screenshot from the multiplayer level tech area." src="../assets/img/Multiplayer%20Level/HighresScreenshot00034.png" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;"></div>
+                    <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="Screenshot from the multiplayer level tech area." src="../assets/img/Multiplayer%20Level/HighresScreenshot00034.webp" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;"></div>
                 </div>
                 <div class="col d-lg-flex d-xl-flex d-xxl-flex align-items-lg-center align-items-xl-center justify-content-xxl-start align-items-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
@@ -129,7 +131,7 @@
         </div>
     </div>
     <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center" style="padding-top: 12px;">
-        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center" style="border-radius: 6px;margin-right: 16px;margin-left: 16px;background: var(--bs-primary);box-shadow: 0px 0px 7px rgba(33,37,41,0.6);max-width: 1360px;width: 90%;margin-bottom: 16px;">
+        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center default-box">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="width: 100%;margin: 12px;margin-top: 12px;">
                 <div class="col d-lg-flex d-xxl-flex align-items-lg-center justify-content-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
@@ -138,16 +140,16 @@
                     </div>
                 </div>
                 <div class="col d-flex d-xl-flex justify-content-center align-items-center mx-auto" style="position: relative;">
-                    <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="Screenshot from the multiplayer level fashion area." src="../assets/img/Multiplayer%20Level/HighresScreenshot00035.png" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;"></div>
+                    <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="Screenshot from the multiplayer level fashion area." src="../assets/img/Multiplayer%20Level/HighresScreenshot00035.webp" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;"></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center" style="padding-top: 12px;padding-bottom: 47px;border-radius: 6px;">
-        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center" style="border-radius: 6px;margin-right: 16px;margin-left: 16px;background: var(--bs-primary);box-shadow: 0px 0px 7px rgba(33,37,41,0.6);max-width: 1360px;width: 90%;margin-bottom: 16px;">
+    <div class="d-flex d-md-flex d-xl-flex d-xxl-flex justify-content-center justify-content-md-center justify-content-xxl-center align-items-xxl-center">
+        <div class="text-center d-flex d-xxl-flex justify-content-sm-center justify-content-xxl-center align-items-xxl-center default-box">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="width: 100%;margin: 12px;margin-top: 12px;">
                 <div class="col d-flex d-xl-flex justify-content-center align-items-center mx-auto" style="position: relative;">
-                    <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="Screenshot from the multiplayer level central area." src="../assets/img/Multiplayer%20Level/HighresScreenshot00036.png" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;"></div>
+                    <div class="d-flex d-md-flex d-lg-flex justify-content-center align-items-center align-items-md-center justify-content-lg-center align-items-lg-center" style="width: 100%;height: 100%;"><img alt="Screenshot from the multiplayer level central area." src="../assets/img/Multiplayer%20Level/HighresScreenshot00036.webp" style="width: 100%;border-radius: 16px;margin: 12px;margin-top: 12px;"></div>
                 </div>
                 <div class="col d-lg-flex d-xl-flex d-xxl-flex align-items-lg-center align-items-xl-center justify-content-xxl-start align-items-xxl-start">
                     <div class="d-xxl-flex flex-column justify-content-xxl-start">
@@ -158,6 +160,7 @@
             </div>
         </div>
     </div>
+    <div class="text-buffer"></div>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../assets/js/bs-init.js"></script>

@@ -1,10 +1,32 @@
 .default-box {
+  margin-top: 0px;
   border-radius: 6px;
   margin-right: 16px;
   margin-left: 16px;
   background: var(--bs-primary);
   box-shadow: 0px 0px 7px rgba(33,37,41,0.6);
-  max-width: 1360px;
+  max-width: 1200px;
   width: 90%;
+  margin-bottom: 24px;
+}
+
+.item.itemc.curved-boarder.curved-border.common-gradient.common-green {
+  padding-top: 12px;
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 100%;
+  transform: scale(0.98);
+  box-shadow: 0px 0px 10px rgba(33,37,41,0.6);
+  height: 100%;
+}
+
+.background {
+  background: url(../../assets/img/Site/BG-Grid.png), var(--bs-primary);
+}
+
+.text-buffer {
+  height: 60px;
 }
 

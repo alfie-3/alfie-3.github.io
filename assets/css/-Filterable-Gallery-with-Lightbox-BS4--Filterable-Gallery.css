@@ -1,5 +1,7 @@
-.common-gradient {
-  background: linear-gradient(-172deg, black, white);
+.common-green {
+  background: var(--bs-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(33,37,41,0.6);
 }
 
 .curved-border {
@@ -55,18 +57,22 @@
   }
 }
 
-.item.itemc.curved-boarder.curved-border {
-}
-
-.carousel-indicators li {
-  background-color: var(--bs-secondary);
-}
-
 .carousel-indicators .active {
   background-color: #d2f5b7;
 }
 
 .carousel .carousel-control-next-icon, .carousel-control-prev-icon {
   background-image: none;
+}
+
+.item.filtr-item {
+  background: rgba(0,0,0,0);
+  border-radius: 19px;
+  padding-top: 12px;
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-left: 0px;
+  margin-right: 0px;
+  transform: scale(1);
 }
 
