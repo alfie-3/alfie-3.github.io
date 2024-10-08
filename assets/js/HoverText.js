@@ -1,32 +1,45 @@
-function changeTextTitle(id, content){
-   var ele = document.getElementById(id)
+$(".project-panel").hover(
 
-   ele.getAnimations().forEach(element => {
-    element.cancel()
-   });
+//Show
+function()
+ {
+    switchToAlt(this)
+ }, 
 
-   ele.innerHTML = content.bold()
-   ele.style.fontWeight = "bold"
-   ele.style.fontSize = "40px"
-}
+//Hide
+function() {
+    switchToTitle(this)
+ }
+)
 
-function changeTextDesc(id, content){
-    var ele = document.getElementById(id)
-    
-    fadeAnim = ele.animate([
+function switchToAlt(ele){
+    var textEle = $(ele).find(".project-text")[0]
+
+    fadeAnim = textEle.animate([
         {opacity:1},
         {opacity:0}]
         ,100);
     
-        console.log(fadeAnim.finished)
     fadeAnim.finished.then(() => {
-        ele.innerHTML = content
-        ele.style.fontSize = "28px"
-        ele.style.fontWeight = "normal"
+        textEle.innerHTML = textEle.getAttribute("alt")
+        textEle.style.fontSize = "28px"
+        textEle.style.fontWeight = "normal"
     
-        ele.animate([
+        textEle.animate([
             {opacity:0},
             {opacity:1}]
             ,100);
     });
+}
+
+function switchToTitle(ele){
+    var textEle = $(ele).find(".project-text")[0]
+
+    textEle.getAnimations().forEach(element => {
+     element.cancel()
+    });
+ 
+    textEle.innerHTML = textEle.getAttribute("main")
+    textEle.style.fontWeight = "bold"
+    textEle.style.fontSize = "40px"
 }
