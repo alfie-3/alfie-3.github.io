@@ -30,3 +30,7 @@
   height: 60px;
 }
 
+.no-pointer-events {
+  pointer-events: none;
+}
+
