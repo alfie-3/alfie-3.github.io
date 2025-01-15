@@ -8,6 +8,48 @@
   border-radius: 6px;
 }
 
+.filtr-item {
+}
+
+.filtr-controls {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 30px 0 15px;
+}
+
+.filtr-controls span {
+  display: inline-block;
+  margin: 10px 15px;
+  cursor: pointer;
+  padding: 5px 0;
+  position: relative;
+  color: #777;
+}
+
+.filtr-controls span:hover, .filtr-controls span.active {
+  color: #000;
+}
+
+.filtr-controls span:after {
+  content: ' ';
+  width: 0;
+  height: 2px;
+  /*position: absolute;*/
+  bottom: 0;
+  left: 50%;
+  background: transparent;
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+  /*font-size: 1px;*/
+}
+
+.filtr-controls span.active:after {
+  width: 100%;
+  left: 0;
+  background: #000;
+}
+
 @media (max-width:479px) {
   .filtr-item {
     width: 100%;
@@ -33,5 +75,16 @@
   margin-right: 0px;
   transform: scale(1);
   /*height: 100%;*/
+}
+
+#project6 {
+}
+
+.project-panel {
+}
+
+.project-text {
+  /*font-size: 2em;*/
+  /*padding-bottom: 0px;*/
 }
 
