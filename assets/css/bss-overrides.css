@@ -151,3 +151,7 @@
   --bs-btn-disabled-border-color: #181f3a;
 }
 
+.aspect-ratio-1x1 {
+  aspect-ratio: 1/1;
+}
+
