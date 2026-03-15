@@ -1,0 +1,10 @@
+scaling {
+  --fs-sm: clamp(0.9rem, -0.02vi + 0.9rem, 0.89rem);
+  --fs-base: clamp(1.13rem, 0.11vi + 1.1rem, 1.19rem);
+  --fs-md: clamp(1.41rem, 0.32vi + 1.33rem, 1.58rem);
+  --fs-lg: clamp(1.76rem, 0.64vi + 1.6rem, 2.11rem);
+  --fs-xl: clamp(2.2rem, 1.12vi + 1.92rem, 2.81rem);
+  --fs-xxl: clamp(2.75rem, 1.82vi + 2.29rem, 3.75rem);
+  --fs-xxxl: clamp(3.43rem, 2.84vi + 2.72rem, 5rem);
+}
+
